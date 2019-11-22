@@ -16,5 +16,5 @@ For macaque MRI, multiple templates are available (see table below for a non-exh
 | Yerkes19 | _M. mulatta_ | 0.50 | F99 | NIFTI & MGZ | GIFTI & MGZ | [reference1](https://www.pnas.org/content/115/22/E5183) [reference2](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3500860/) [download1](https://balsa.wustl.edu/reference/show/976nz) [download2](https://github.com/Washington-University/NHPPipelines) |
 
 
-I used [ANTs](http://stnava.github.io/ANTs/) to compute transformation warps between the volumetric spaces of the 5 above macaque MRI templates. [See how macaque template warps were computed](macaque_template_warps.html)  - [Download jupyter notebook](macaque_template_warps.ipynb) These warps can be used to transform images (parcellations, statistical maps etc.) between various template spaces. [See how to use macaque template warps](how_to_apply_template_warps.html) - [Download jupyter notebook](how_to_apply_template_warps.ipynb)
+I used [ANTs](http://stnava.github.io/ANTs/) to compute transformation warps between the volumetric spaces of the 5 above macaque MRI templates. [See how macaque template warps were computed](macaque_template_warps.ipynb). These warps can be used to transform images (parcellations, statistical maps etc.) between various template spaces. [See how to use macaque template warps](how_to_apply_template_warps.ipynb)
 
